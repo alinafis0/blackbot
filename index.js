@@ -1,8 +1,4 @@
-      process.exit(1);
-    } else {
-      process.exit();
-    }
-  });console.log('[ ℹ️ ] charging...');
+console.log('[ ℹ️ ] Iniciando...');
 import {join, dirname} from 'path';
 import {createRequire} from 'module';
 import {fileURLToPath} from 'url';
@@ -17,7 +13,7 @@ const {name, author} = require(join(__dirname, './package.json'));
 const {say} = cfonts;
 const rl = createInterface(process.stdin, process.stdout);
 
-say('The black\nBot', {
+say('The Mystic\nBot', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']});
@@ -68,7 +64,11 @@ function start(file) {
     start.apply(this, arguments);
 
     if (process.env.pm_id) {
-
+      process.exit(1);
+    } else {
+      process.exit();
+    }
+  });
   const opts = new Object(yargs(process.argv.slice(2)).exitProcess(false).parse());
   if (!opts['test']) {
     if (!rl.listenerCount()) {
