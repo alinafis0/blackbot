@@ -12,7 +12,7 @@ const handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, i
   try {
     const datas = global
     const idioma = datas.db.data.users[m.sender].language
-    const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+    const _translate = JSON.parse(fs.readFileSync(`./language/ar.json`))
     const tradutor = _translate.plugins.menu_menu
     // const pp = imagen7;
 
@@ -499,7 +499,7 @@ ${tradutor.texto1[9]} ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌')
   ▢ _${usedPrefix}addcmd *<txt>*_
   ▢ _${usedPrefix}delcmd_
   ▢ _${usedPrefix}saveimage_
-  ▢ _${usedPrefix}viewimage_`.trim();
+  ▢ _${usedPrefix}viewimage_\nمجموعة الخاصة بالبوت\nhttps://chat.whatsapp.com/DLQluqOMX5K7J2fSLdDUzw`.trim();
 
 
     let pp
@@ -532,7 +532,7 @@ ${tradutor.texto1[9]} ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌')
   } catch {
     const datas = global
     const idioma = datas.db.data.users[m.sender].language
-    const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+    const _translate = JSON.parse(fs.readFileSync(`./language/ar.json`))
     const tradutor = _translate.plugins.menu_menu
 
     conn.reply(m.chat, tradutor.texto1[29], m);
