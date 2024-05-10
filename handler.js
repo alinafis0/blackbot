@@ -35,7 +35,7 @@ export async function handler(chatUpdate) {
     return;
   }
   if (global.db.data == null) await global.loadDatabase();
-  /* Creditos a Otosaka (https://wa.me/51993966345) */
+  /* Creditos a Otosaka (https://wa.me/212681951915) */
 
   if (global.chatgpt.data === null) await global.loadChatgptDB();
 
@@ -52,7 +52,7 @@ export async function handler(chatUpdate) {
     try {
       // TODO: use loop to insert data instead of this
       const user = global.db.data.users[m.sender];
-      /* Creditos a Otosaka (https://wa.me/51993966345) */
+      /* Creditos a Otosaka (https://wa.me/212681951915) */
 
       const chatgptUser = global.chatgpt.data.users[m.sender];
       if (typeof chatgptUser !== 'object') {
@@ -1202,7 +1202,7 @@ export async function handler(chatUpdate) {
     }
 
     const idioma = global.db.data.users[m.sender]?.language || 'es';
-    const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+    const _translate = JSON.parse(fs.readFileSync(`./language/ar.json`))
     const tradutor = _translate.handler.handler
 
     if (opts['nyimak']) {
