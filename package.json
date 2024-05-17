@@ -54,7 +54,6 @@
     "colors": "1.4.0",
     "d3-node": "^3.0.0",
     "esm": "^3.2.25",
-    "node.js":"^20.13.1",
     "express": "^4.17.3",
     "file-type": "^17.1.1",
     "fluent-ffmpeg": "^2.1.2",
