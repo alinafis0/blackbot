@@ -11,8 +11,29 @@ global.botnumber = ""
 global.confirmCode = ""
 
 global.owner = [
-  ['212681951915', '👑 Mystic - Creador 👑', true],
-  ['212681951915', '💫 Mystic - Collaborator 2 💫', true], 
+  ['212681951915', '𝘼𝙇𝙄 𝙉𝘼𝙁𝙄𝙎', true],
+  ['212681951915', '𝘼𝙇𝙄 𝙉𝘼𝙁𝙄𝙎', true],
+  ['212681951915', '𝘼𝙇𝙄 𝙉𝘼𝙁𝙄𝙎', true],
+  ['212681951915', '𝘼𝙇𝙄 𝙉𝘼𝙁𝙄𝙎', true],
+  ['212681951915', '𝘼𝙇𝙄 𝙉𝘼𝙁𝙄𝙎', true],
+  ['212681951915', '𝘼𝙇𝙄 𝙉𝘼𝙁𝙄𝙎', true],
+  ['212681951915', '𝘼𝙇𝙄 𝙉𝘼𝙁𝙄𝙎', false],
+  ['212681951915', '𝘼𝙇𝙄 𝙉𝘼𝙁𝙄𝙎', true],
+  ['212681951915', '𝘼𝙇𝙄 𝙉𝘼𝙁𝙄𝙎', true],
+  ['212681951915', '𝘼𝙇𝙄 𝙉𝘼𝙁𝙄𝙎', true],
+  ['212681951915'],
+  ['212681951915'],
+  ['212681951915'],
+  ['212681951915'],
+  ['212681951915'], 
+  ['212681951915'],  
+  ['212681951915'],
+  ['212681951915'],
+  ['212681951915'],
+  ['212681951915'], 
+  ['212681951915'], 
+  ['212681951915'],
+  ['212681951915'],
   ['212681951915'],
   ['212681951915']
 ];
@@ -21,12 +42,12 @@ global.suittag = ['212681951915'];
 global.prems = ['212681951915'];
 
 global.packname = 'Sticker';
-global.author = 'The black - Bot';
-global.wm = 'The black - Bot';
-global.titulowm = 'The black - Bot';
-global.titulowm2 = `The black - Bot`
-global.igfg = 'The black - Bot';
-global.wait = '*[ ⏳ ] جاري تحميل...*';
+global.author = '𝙏𝙊𝙈-𝘽𝙊𝙏';
+global.wm = '𝙏𝙊𝙈-𝘽𝙊𝙏';
+global.titulowm = '𝙏𝙊𝙈-𝘽𝙊𝙏';
+global.titulowm2 = `𝙏𝙊𝙈-𝘽𝙊𝙏`
+global.igfg = '𝙏𝙊𝙈-𝘽𝙊𝙏';
+global.wait = '*جاري تحميل*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
@@ -50,14 +71,14 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\nThe black - Bot`;
-global.gt = 'The black - Bot';
-global.mysticbot = 'The black - Bot';
-global.md = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
-global.mysticbot = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
-global.waitt = '*[ ⏳ ] جاري تحميل...*';
-global.waittt = '*[ ⏳ ] جاري تحميل...*';
-global.waitttt = '*[ ⏳ ] جاري تحميل...*';
+global.wm2 = `${dia} ${fecha}\nThe Mystic - Bot`;
+global.gt = '𝙏𝙊𝙈-𝘽𝙊𝙏';
+global.mysticbot = '𝙏𝙊𝙈-𝘽𝙊𝙏';
+global.md = 'https://github.com/alinafis0/blackbot';
+global.mysticbot = 'https://github.com/alinafis0/blackbot';
+global.waitt = '*جاري تحميل*';
+global.waittt = '*جاري تحميل*';
+global.waitttt = '*جاري تحميل*';
 global.nomorown = '212681951915';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
